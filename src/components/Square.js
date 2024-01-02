@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Square = (props) => {
+const Square = ({ value, onClick }) => {
   return (
-    <div className="square"></div>
+      <button className="square" onClick={onClick}>
+      {value}
+      </button>
   )
 }
 export default Square

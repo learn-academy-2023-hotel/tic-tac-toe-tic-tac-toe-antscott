@@ -3,3 +3,28 @@
   height: 100px;
   width: 100px;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.boardflex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 310px;
+ align-items: center;
+ text-align: center;
+}
+
+.reset {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
